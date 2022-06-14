@@ -36,3 +36,10 @@ git push -u origin main
   2. runtime errors
   3. logical errors
 
+> ********  don't use ./ for routes use it for file paths ********
+
+> sudo npm install --save ejs pug express-handlebars
+
+> https://pugjs.org/api/getting-started.html
+
+> with <%- we can render the content with <%= content rnder as text(content can html, varable, ..)
