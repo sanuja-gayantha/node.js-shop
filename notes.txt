@@ -3,7 +3,7 @@
 echo "# node.js-shop" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m "commit"
 git branch -M main
 git remote add origin https://github.com/sanuja-gayantha/node.js-shop.git
 git push -u origin main
@@ -43,3 +43,9 @@ git push -u origin main
 > https://pugjs.org/api/getting-started.html
 
 > with <%- we can render the content with <%= content rnder as text(content can html, varable, ..)
+
+> nodemon would ignore any changes in json files and wouldn't restart the server. find more : https://www.udemy.com/course/nodejs-the-complete-guide/learn/lecture/11602956#questions/11023274
+
+"nodemonConfig": {
+        "ignore": ["*.json"]
+    },
