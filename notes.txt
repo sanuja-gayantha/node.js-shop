@@ -49,3 +49,5 @@ git push -u origin main
 "nodemonConfig": {
         "ignore": ["*.json"]
     },
+
+    > req.body, req.params, req.query.(parameter name)
